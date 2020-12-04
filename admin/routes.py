@@ -3,5 +3,5 @@ from app import app
 
 @app.route("/admin/")
 def index():
-   return render_template("About.html")
+   return render_template("admin/index.html")
 
